@@ -1,0 +1,37 @@
+Trace
+    at Object.<anonymous> (/Users/tangzixiang/Desktop/project/20160909/nodeJS/chapter01/console-trace.js:6:9)
+    at Module._compile (module.js:435:26)
+    at Object.Module._extensions..js (module.js:442:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:311:12)
+    at Function.Module.runMain (module.js:467:10)
+    at startup (node.js:136:18)
+    at node.js:963:3
+Trace: start
+    at Object.<anonymous> (/Users/tangzixiang/Desktop/project/20160909/nodeJS/chapter01/console-trace.js:7:9)
+    at Module._compile (module.js:435:26)
+    at Object.Module._extensions..js (module.js:442:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:311:12)
+    at Function.Module.runMain (module.js:467:10)
+    at startup (node.js:136:18)
+    at node.js:963:3
+Trace: end
+    at Object.<anonymous> (/Users/tangzixiang/Desktop/project/20160909/nodeJS/chapter01/console-trace.js:24:9)
+    at Module._compile (module.js:435:26)
+    at Object.Module._extensions..js (module.js:442:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:311:12)
+    at Function.Module.runMain (module.js:467:10)
+    at startup (node.js:136:18)
+    at node.js:963:3
+Trace: fs-start
+    at ReadFileContext.callback (/Users/tangzixiang/Desktop/project/20160909/nodeJS/chapter01/console-trace.js:13:13)
+    at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:303:13)
+error - 
+ Error: ENOENT: no such file or directory, open 'chapter01/not-found.txt'
+wran - 
+ Error: ENOENT: no such file or directory, open 'chapter01/not-found.txt'
+Trace: fs-end
+    at ReadFileContext.callback (/Users/tangzixiang/Desktop/project/20160909/nodeJS/chapter01/console-trace.js:21:13)
+    at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:303:13)
