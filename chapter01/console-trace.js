@@ -23,3 +23,4 @@ fs.readFile(file,encoding,function (err,data) {
 });
 
 console.trace('end');
+console.log(1);
